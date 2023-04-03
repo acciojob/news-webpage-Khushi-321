@@ -1,58 +1,52 @@
 /*  your css code here. If applicable */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color:#f5f5f5;
-	text-align: center;
-  }
-
-header{
-	background-color: #011e29;
-	color: #fff;
-	text-align: center;
-	padding: 10px;
+body{
+	text-align:center;
+	background-color#f5f5f5;
 }
-
-.container {
-	display: flex;
-	align-items: space-evenly;
-	padding: 10px;
-	gap: 10px;
-	text-align: center;
+h2{
+	background-color:#011e29;
+	color:#fff;
+	padding:10px;
 }
-
-.item1 {
-	background-color: white;
-	height: fit-content;
+.container{
+	display:flex;
+	align-items:space-evenly;
+	padding:10px;
+	gap:10px;
+	text-align:center;
+}
+.latest-news-section{
+	background-color:#fff;
+	padding:10px;
 	width:25%;
-	padding: 10px;
 	border-radius:20px;
+	height:fit-content;
 }
-
-.item2 {
-	background-color: white;
-	height: fit-content;
+.item2{
+	background-color:#fff;
+	padding:10px;
 	width:50%;
-	padding: 10px;
 	border-radius:20px;
+	height:fit-content;
 }
-
-.item3 {
-	background-color: white;
-	height: fit-content;
+.pictorial-news-section{
+	background-color:#fff;
+	padding:10px;
 	width:25%;
-	padding: 10px;
 	border-radius:20px;
+	height:fit-content;
 
-	/For Photos/
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	gap: 15px;
+/* 	for photos */
+	display:flex;
+	flex-direction:column;
+	align-tems:center;
+	gap:10px;
+/* 	justify-content:space-around; */
+
+	
 }
 
-.item3 img {
-	width: 150px;
-	height: auto;
+img{
+	width:150px;
+	height:auto;
 }
